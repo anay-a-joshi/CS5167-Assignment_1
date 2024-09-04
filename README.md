@@ -1,7 +1,7 @@
 # CS5167 - User Interface 1
 Assignment 1b: HTML, CSS, JavaScript (Basic)  
 
-**Coding Activity 1**
+                                                                **Coding Activity 1**
 
 We are going to make a basic UI using just html and css.  This preliminary site will be static.   For this assignment, you will be graded on adding a variety of elements, applying some style and layout rules.  You do not need to make this look professional or consider usability.  This is just a technical exercise, to practice html and css.  
 
@@ -31,7 +31,7 @@ _You site should have:_
     Anything else you want to try....   
 
 
-**Coding Activity 2**
+                                                                **Coding Activity 2**
 
 For this activity, you will continue with the basic UI you have worked on in html and css for Coding Activity 1.   But now we are going to make it interactive and dynamic.  You will also add text or visuals to the top of the page that summarize the user's entries for the past few days.  As before, this is a technical exercise so focus on getting these features working rather than professional styling or usability.  
 
