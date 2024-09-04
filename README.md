@@ -3,6 +3,9 @@ Assignment 1b: HTML, CSS, JavaScript (Basic)
 
 
 
+
+
+
 **Coding Activity 1**
 
 We are going to make a basic UI using just html and css.  This preliminary site will be static.   For this assignment, you will be graded on adding a variety of elements, applying some style and layout rules.  You do not need to make this look professional or consider usability.  This is just a technical exercise, to practice html and css.  
@@ -31,6 +34,8 @@ _You site should have:_
     A set of checkboxes for them to mark how they felt today (energetic, anxious, motivated... choose your own labels)
     Use svg shapes somewhere (communicate the user's sleep score, colors to describe their mood...)
     Anything else you want to try.... 
+
+
 
 
 
