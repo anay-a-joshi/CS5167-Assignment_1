@@ -1,0 +1,112 @@
+/* This is an empty style sheet in CSS */
+
+/* 
+    Name: Anay Abhijit Joshi
+    M-ID: M14391356
+    Date: September 1, 2024
+
+    CS 5167: User Interface 1
+*/
+
+/* NOTE: Some CSS is directly written in "index.html" file. */
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* background-color: ghostwhite; */
+    background-color: yellow;
+    color: black;
+    padding-bottom: 25px;
+    /*margin: top right bottom left*/
+}
+
+.container {
+    border-radius: 15px;
+    padding: 22px;
+    box-shadow: 1 1 11px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    padding: 30px 0px 0px 0px;
+}
+
+
+.header h1 {
+    text-decoration: underline; 
+    font-weight: bolder; 
+    color: darkblue;
+}
+
+.header p {
+    font-style: italic; 
+    color: red;
+}
+
+.header {
+    justify-content: center;
+    /* background-color: greenyellow; */
+    background-color: ghostwhite;
+    border-radius: 15px;
+    padding: 22px;
+    box-shadow: 1 1 11px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-shadow: 11vh;
+    /*margin: top right bottom left*/
+    margin: 0px 0px 29px 0px;
+}
+
+.journal-entry input {
+    width: 40%;
+    border-radius: 11px;
+    padding: 11px;
+    border: 1px solid;
+    font-size: 15px;
+}
+
+.favorite-shape {
+    position: absolute; 
+    right: 140px; 
+    top: 1%;
+}
+
+.favorite-shape label {
+    display: flex; 
+    align-items: center;
+}
+
+.extra {
+    position: absolute; 
+    right: 100px; 
+    top: 58%;
+}
+
+/* .feeling {
+    position: absolute; 
+    right: 42px; 
+    top: 80%;
+} */
+
+/* .feeling input[type="checkbox"] {
+    margin: 0px 11px 0px 0px;
+} */
+
+
+.submit-button {
+    background-color: darkblue;
+    color: ghostwhite;
+    padding: 15px 11px 15px 11px;
+    font-size: large;
+    border: ghostwhite;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    position: absolute;
+    top: 90%;
+    right: 4%;
+    transform: translateX(-50%);
+}
+
+.button h2 {
+    position: absolute;
+    top: 80%;
+    right: 13.5%;
+}

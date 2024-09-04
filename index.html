@@ -1,0 +1,151 @@
+<!--
+    Name: Anay Abhijit Joshi
+    M-ID: M14391356
+    Date: September 1, 2024
+
+    CS 5167: User Interface 1
+-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--
+        <title>My UI</title>
+        -->
+        <title> Coding Activity 1: Goal Tracker and Journal</title>
+        
+        <!-- The following line references an external css file -->
+        <!-- It defines style rules for your page, and elements in your page -->
+        <link href="css/style.css" rel="stylesheet">
+        
+    </head>
+        
+    <body>
+        <div class="container">
+            <header class="header">
+                <!--
+                Main content can be added here.  
+                -->
+                <h1> 
+                    Anay Abhijit Joshi
+                </h1>
+
+                <p>
+                    September 1, 2024 - 16:11:29 PM, Eastern Time (ET)
+                </p>
+            </header>
+
+            <div style="position: absolute; left: 3.5%; top: 20%;">
+                <!-- Image of the Day -->
+                <h2>Image of the Day</h2>
+                <img src="sun.jpg" alt="Sun and Clouds" style="max-width: 25%; height: auto;">
+                
+                <!-- Inspirational Quote of the Day -->
+                <h2>Inspirational Quote of the Day</h2>
+                <p style="text-decoration: underline;">Success has no full stops, only commas; because success is not a destination, success is a journey!</p>
+
+                <!-- Today's Journal Entry -->
+                <div class="journal-entry">
+                    <h2>Today's Journal Entry</h2>
+                    <input type="text" placeholder="Start Writing!">
+                </div>
+                
+                <!-- Hours of Sleep -->
+                <h2> Hours of Sleep</h2>
+                    <label for="hours-of-sleep">Enter Your Hours of Sleep:</label>
+                        <input type="number" id="hours-of-sleep" min="0" max="24">
+
+                <!-- Different Feelings -->
+                <div class="feeling">
+                    <h2>How are you feeling today?</h2>
+                    <div style="margin-bottom: 75px;">
+                        <input type="checkbox" id="checkbox1" value="Happy"><label for="checkbox1">Happy</label>
+                        <input type="checkbox" id="checkbox2" value="Sad"><label for="checkbox2">Sad</label>
+                        <input type="checkbox" id="checkbox3" value="Stressed"><label for="checkbox3">Stressed</label>
+                    </div>
+                </div>
+
+                <!-- Favorite Shape(s) -->
+                <div class="favorite-shape">
+                    <h2 style="margin-bottom: 5px;">Favorite Shape?</h2>
+
+                    <label>
+                        <input type="checkbox" style="margin-right: 10px;"/>
+                        Circle
+                        <svg width="80" height="80" style="margin-left: 12px; margin-top: 0px;">
+                            <circle cx="40" cy="40" r="25" fill="red"/>
+                        </svg>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" style="margin-right: 10px;"/>
+                        Square
+                        <svg width="80" height="80" style="margin-left: 20px; margin-top: 25px;">
+                            <rect x="0" y="0" width="50" height="50" fill="blue"/>
+                        </svg>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" style="margin-right: 10px;"/>
+                        Something Else!
+                    </label>
+                </div>
+
+                <!-- User Welcome Message -->
+                <div>
+                    <h2>Welcome! Let this UI know you</h2>
+                    <input type="text" id="first-last-name" style="width: 40%; height: 40%; padding: 11px; border-radius: 11px; margin: 5px 0px 0px 0px; border: 1px solid darkblue; font-size: 15px;" placeholder="What is your name?"/>
+                </div>
+
+                <!-- Local Time -->
+                <div style="position:absolute; top: 105%; bottom: 10%;">
+                    <h3> Local Time </h3>
+                    <input type="datetime-local" style="font-size: large;"/>
+                </div>
+
+            </div>
+            
+            <!-- Button -->
+            <div class="button">
+                <h2>Button</h2>
+                <button class="submit-button" id="submit-button">Submit Entry</button>
+            </div>
+
+            <!-- Average Sleep in Hours -->
+            <div style="margin-top: 70%; text-align: right;">
+                <h2 style="margin-bottom: 10px;">Average Sleep (in hours)</h2>
+                <!-- <svg id="measure-average-sleep" width="150" height="50" viewBox="1 1 150 50">
+                  <rect x="0" y="15" width="150" height="11" fill="darkblue"/>
+                  <rect id="sleep-graph" x="0" y="22" width="1" height="11" fill="red"/>
+                </svg> -->
+
+                <p id="average-sleep-in-hours">Average Hours of Sleep (in hours) = 0</p>
+            </div>
+
+            <!-- Different Feelings -->
+            <div style="position: absolute; top: 110%; right: 5%";>
+                <h2>Number of Days with Different Feelings</h2>
+                <p id="different-feelings"> Different Feelings: Happy: 0, Sad: 0, Stressed: 0</p>
+            </div>
+
+            <div style="position: absolute; top: 130%; left: 3.5%;">
+                <h2>Users' Data</h2>
+                <div id="users-data"></div>
+            </div>
+
+            <!-- Attaching an Image File -->
+            <div class="extra">
+                <h2>Attach an Image File!</h2>
+                <!-- <button type="button">Choose File!</button> -->
+                <input type="file" accept="Image/*">
+            </div>
+
+            <!-- Load external JS files -->
+            <!-- This is where you will do most of the 'work' for your applications -->
+            <script src="js/main.js"></script>
+        </div>
+
+    </body>
+
+</html>
