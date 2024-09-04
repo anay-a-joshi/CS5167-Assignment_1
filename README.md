@@ -1,9 +1,10 @@
 # CS5167 - User Interface 1
 Assignment 1b: HTML, CSS, JavaScript (Basic)
 
-# ================================================================================================================================================
+
 
 **Coding Activity 1**
+
 We are going to make a basic UI using just html and css.  This preliminary site will be static.   For this assignment, you will be graded on adding a variety of elements, applying some style and layout rules.  You do not need to make this look professional or consider usability.  This is just a technical exercise, to practice html and css.  
 
 1.  Create an html project.
@@ -15,9 +16,11 @@ We are going to make a basic UI using just html and css.  This preliminary site 
 7. Test out editing the html in the developer console to see immediate changes.  
 
 **What are we implementing?**
+
 Implement a basic goal tracking and journaling website. 
 
 **Summary**
+
 _You site should have:_
     The user's name
     The date and time of the entry
@@ -29,8 +32,6 @@ _You site should have:_
     Use svg shapes somewhere (communicate the user's sleep score, colors to describe their mood...)
     Anything else you want to try.... 
 
-
-# ================================================================================================================================================
 
 
 
