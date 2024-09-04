@@ -1,10 +1,5 @@
 # CS5167 - User Interface 1
-Assignment 1b: HTML, CSS, JavaScript (Basic)
-
-
-
-
-
+Assignment 1b: HTML, CSS, JavaScript (Basic)  
 
 **Coding Activity 1**
 
@@ -16,11 +11,11 @@ We are going to make a basic UI using just html and css.  This preliminary site 
 4. Use css for styling and layout.  Give elements class names, in your html code.  And write style rules for those classes- Set their color, Choose a new font and font size, Add rounded corners if it is a div...  For this assignment, you can apply any styling rules or layout rules you choose, even silly ones.  I just want you to understand how you can control the look of your elements using css.  
 5. As you go, view the result in your browser.  You can just double click on the html file to view it in the browser.  I suggest Chrome. 
 6. Inspect your page using the web developer tools in Chrome (View >> Developer >> Developer Tools).  Look at the elements and where they are onscreen, and the layout and sizing decisions computed by the layout engine in the Chrome browser.  
-7. Test out editing the html in the developer console to see immediate changes.  
+7. Test out editing the html in the developer console to see immediate changes.    
 
 **What are we implementing?**
 
-Implement a basic goal tracking and journaling website. 
+Implement a basic goal tracking and journaling website.   
 
 **Summary**
 
@@ -33,11 +28,7 @@ _You site should have:_
     A place to enter in how many hours of sleep they got
     A set of checkboxes for them to mark how they felt today (energetic, anxious, motivated... choose your own labels)
     Use svg shapes somewhere (communicate the user's sleep score, colors to describe their mood...)
-    Anything else you want to try.... 
-
-
-
-
+    Anything else you want to try....   
 
 
 **Coding Activity 2**
