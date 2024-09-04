@@ -1,5 +1,5 @@
-# CS5167 - User Interface 1\n
-Assignment 1b: HTML, CSS, JavaScript (Basic)\n  
+# CS5167 - User Interface 1
+Assignment 1b: HTML, CSS, JavaScript (Basic)
 
 **Coding Activity 1**
 
@@ -28,7 +28,8 @@ _You site should have:_
     A place to enter in how many hours of sleep they got
     A set of checkboxes for them to mark how they felt today (energetic, anxious, motivated... choose your own labels)
     Use svg shapes somewhere (communicate the user's sleep score, colors to describe their mood...)
-    Anything else you want to try....\n 
+    Anything else you want to try....
+
 
 
 **Coding Activity 2**
